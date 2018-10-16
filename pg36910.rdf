@@ -1,161 +1,228 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:cc="http://web.resource.org/cc/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:cc="http://web.resource.org/cc/"
 >
   <pgterms:ebook rdf:about="ebooks/36910">
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-07-31</dcterms:issued>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="Nf6ca1abbbb6047e09365cb5a1bbd0af9">
+        <rdf:value>FR Biographie, Mémoires, Journal intime, Correspondance</rdf:value>
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+      </rdf:Description>
+    </pgterms:bookshelf>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nabdb1b34bafd476685de282c4729af74">
-        <rdf:value>DC</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+      <rdf:Description rdf:nodeID="N337755eb5540446c8723ff9423f5d9e8">
+        <rdf:value>France. Armée</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
       </rdf:Description>
     </dcterms:subject>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/900">
-        <pgterms:name>Marbot, Jean-Baptiste-Antoine-Marcelin, baron de</pgterms:name>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1854</pgterms:deathdate>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Jean-Baptiste-Antoine-Marcelin%2C_Baron_de_Marbot"/>
-        <pgterms:alias>De Marbot, Jean-Baptiste-Antoine-Marcelin, baron</pgterms:alias>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1782</pgterms:birthdate>
-        <pgterms:alias>Marbot, baron de</pgterms:alias>
-      </pgterms:agent>
-    </dcterms:creator>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="Ne01aa0fb6854494ea8eb806e325b6ebb">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">fr</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/36910/36910-0.txt">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-07-31T09:02:08</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/36910.rdf">
         <dcterms:isFormatOf rdf:resource="ebooks/36910"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">905801</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12612</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-18T03:24:58.593003</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N2db5f44d25c0451fa7f420d1affd9242">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+          <rdf:Description rdf:nodeID="N279b50852bec40d485c3690eb62e879c">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/36910.epub.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/36910"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-18T03:24:52.474121</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">362059</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf1ea948974eb453194fcaca4f24b6e6c">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/36910/36910-0.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N57b6fecd34104551b5b5ede770853567">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-07-31T09:02:12</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">325867</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/36910"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na9a5c18ed51c43a5868572456d5c290b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N233e166961ed4255850520bd0c0d45a9">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>France. Armée</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N9a244964fab34f3dab89051c9c46cdb9">
+      <rdf:Description rdf:nodeID="N2063fb7da44b4586a2bf7000709b0339">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Europe -- History -- 1789-1815</rdf:value>
       </rdf:Description>
     </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/36910.html.gen">
-        <dcterms:isFormatOf rdf:resource="ebooks/36910"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-01T01:25:24.342890</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">934927</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N4261cf6aa30248bd990ac6cfdad8a2d8">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N73fc96134a5f456abbdef1a7e181536a">
+      <rdf:Description rdf:nodeID="N9a7d5e29dd6d4c6ca3d125f7bf403dd9">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Napoleonic Wars, 1800-1815 -- Campaigns</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:title>Mémoires du général baron de Marbot (2/3)</dcterms:title>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/36910/36910-0.zip">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/36910.epub.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-18T03:24:52.689132</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">362059</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/36910"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N787f38c27c9a43d89dbb67da07a9f59c">
+          <rdf:Description rdf:nodeID="Ne2ba79c578da4e6085fb602e8ed7e00e">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/36910.html.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/36910"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ncf941468d1af4f0c9f9ae38bc8be2d7c">
+          <rdf:Description rdf:nodeID="N0140913a65c54e98bc8ffe2134cac28f">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">325867</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-07-31T09:02:12</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">934746</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-18T03:24:51.951126</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N85477092a0cc407f98f2784a13f8b8fd">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">fr</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/36910.html.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">934746</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5613e13debd4434bbf6cd77509313a9e">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/36910"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-18T03:24:52.112112</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:license rdf:resource="license"/>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/900">
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1854</pgterms:deathdate>
+        <pgterms:name>Marbot, Jean-Baptiste-Antoine-Marcelin, baron de</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1782</pgterms:birthdate>
+        <pgterms:alias>De Marbot, Jean-Baptiste-Antoine-Marcelin, baron</pgterms:alias>
+        <pgterms:alias>Marbot, baron de</pgterms:alias>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Jean-Baptiste-Antoine-Marcelin%2C_Baron_de_Marbot"/>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N76981453959646468eb082a66cad519e">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>DC</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/36910/36910-0.txt">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">905801</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-07-31T09:02:08</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/36910"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N00ddea71e72044f194ac7c7920cff3a8">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nb341af385d8b41eb8899772d8e8c672c">
+        <rdf:value>France -- History, Military -- 1789-1815</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="Ndb64c91b299f4859a81f5f05e4e00c23">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>FR Guerres</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="N1901a4cfbe9943ef987351ac9371c0e5">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+      <rdf:Description rdf:nodeID="N2b3815334cee41a9a285dc642e3c2d0c">
         <rdf:value>Text</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
       </rdf:Description>
     </dcterms:type>
-    <dcterms:title>Mémoires du général baron de Marbot (2/3)</dcterms:title>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/36910.kindle.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/36910"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">944097</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nacd0ce5fd74241c9ac80b6b9bc065769">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-01T01:25:29.298131</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</pgterms:downloads>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Ndf487a4330a244649188597154dcf0ce">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>France -- History, Military -- 1789-1815</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/36910.epub.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">381379</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-01T01:25:25.902008</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/36910"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd1672e079a124779b58c46272856e2a1">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N2cd91811cb104c1896ec01b84365f239">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Generals -- France -- Biography</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N696eb448c7e245ea8ecc305771752469">
+      <rdf:Description rdf:nodeID="N0008e9835c5c4aa99789e7b10fabc035">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Marbot, Jean-Baptiste-Antoine-Marcelin, baron de, 1782-1854</rdf:value>
       </rdf:Description>
     </dcterms:subject>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</pgterms:downloads>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/36910.kindle.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1498063</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/36910"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N87243cb516784ea5b3cb4ad98648a1da">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-18T03:24:55.650058</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N56e5c3eba83c42f580a7b4a554fcfab0">
-        <rdf:value>Napoleonic Wars, 1800-1815 -- Personal narratives, French</rdf:value>
+      <rdf:Description rdf:nodeID="N1efef52ca5f64509be526f9e9b802d81">
+        <rdf:value>Generals -- France -- Biography</rdf:value>
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
       </rdf:Description>
     </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/36910.kindle.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/36910"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-18T03:24:58.514012</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nfe41b986e5fa4985a6bcf05098620d3e">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1498047</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N1f4c2cfd53134f9bb5dc7da4a24ea337">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Napoleonic Wars, 1800-1815 -- Personal narratives, French</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-07-31</dcterms:issued>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
   </cc:Work>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Jean-Baptiste-Antoine-Marcelin%2C_Baron_de_Marbot">
     <dcterms:description>Wikipedia</dcterms:description>
